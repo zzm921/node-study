@@ -1,0 +1,11 @@
+{
+    // eslint 起修复作用主要的代码
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "files.autoSave": "afterDelay",
+    // "eslint.format.enable": true
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+}
